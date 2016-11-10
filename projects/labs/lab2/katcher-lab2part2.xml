@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playlist>
+	<songEntry>
+		<albumCover> <img src="http://hwcdn.allmusic.com/release-covers/500/0004/344/0004344081.jpg" alt="Love Stuff Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Ex's &amp;Oh's"</songName>
+		<artist> <a href="http://www.elleking.com/">Elle King</a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/love-stuff-mw0002796344">Love Stuff</a> </albumName>
+		<releaseYear> Released in: 2015 </releaseYear>
+		<genre> Pop/Rock </genre>
+	</songEntry>
+
+	<songEntry>
+		<albumCover> <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0001/549/MI0001549914.jpg?partner=allrovi.com" alt="Runaround Sue Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Runaround Sue"</songName>
+		<artist> <a href="https://www.facebook.com/OfficialDion/">Dion</a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/runaround-sue-mw0000083566">Runaround Sue</a> </albumName>
+		<releaseYear> Released in: 1961 </releaseYear>
+		<genre> Pop/Rock and R&amp;B</genre>
+	</songEntry>
+
+	<songEntry>
+		<albumCover> <img src="http://cps-static.rovicorp.com/3/JPG_1080/MI0003/067/MI0003067805.jpg?partner=allrovi.com" alt="Meet the Orphans Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Danza Kuduro"</songName>
+		<artist> <a href="http://www.universalmusica.com/donomar/">Don Omar</a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/meet-the-orphans-mw0002053164">Meet the Orphans</a> </albumName>
+		<releaseYear> Released in: 2010 </releaseYear>
+		<genre> Latin Rap, Reggae </genre>
+	</songEntry>
+
+	<songEntry>
+		<albumCover> <img src="http://cps-static.rovicorp.com/3/JPG_1080/MI0003/715/MI0003715927.jpg?partner=allrovi.com" alt="Tú y Yo Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Diez Mil Maneras"</songName>
+		<artist> <a href="http://www.davidbisbal.com/">David Bisbal</a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/t%C3%BA-y-yo-mw0002623319">Tú y Yo </a> </albumName>
+		<releaseYear> Released in: 2014 </releaseYear>
+		<genre> Pop/Rock, Latin </genre>
+	</songEntry>
+
+	<songEntry>
+		<albumCover> <img src="http://hwcdn.allmusic.com/release-covers/500/0000/850/0000850889.jpg" alt="Make It Big Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Wake Me Up Before You Go-Go"</songName>
+		<artist> <a href="http://www.georgemichael.com/">Wham!</a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/make-it-big-mw0000192387"> Make It Big </a> </albumName>
+		<releaseYear> Released in: 1984 </releaseYear>
+		<genre> Pop/Rock </genre>
+	</songEntry>
+
+	<songEntry>
+		<albumCover> <img src="http://cps-static.rovicorp.com/3/JPG_500/MI0003/512/MI0003512073.jpg?partner=allrovi.com" alt="Save Rock and Roll Album Cover" style="width:100px;height:100px;"/> </albumCover>
+		<songName>"Where Did The Party Go"</songName>
+		<artist> <a href="http://falloutboy.com/"> Fall Out Boy </a> </artist>
+		<albumName> <a href="http://www.allmusic.com/album/save-rock-and-roll-mw0002492116"> Save Rock and Roll </a> </albumName>
+		<releaseYear> Released in: 2013 </releaseYear>
+		<genre> Pop/Rock </genre>
+	</songEntry>
+</playlist>

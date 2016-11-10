@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<site>
+	<folder>
+		<folderName> lab1 </folderName>
+		<description> This is the phpinfo() webpage when configured correctly.</description>
+		<relativeLocation><include file="./projects/labs/lab1"/></relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab2 </folderName>
+		<description> This is a playlist of my favorite songs.</description>
+		<relativeLocation><include file="./projects/labs/lab2/skatcher-lab2part3.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab3 </folderName>
+		<description> This is an example of how to use JavaScript  Event Listeners, iterating through the DOM, and CSS Manipulation with JavaScript </description>
+		<relativeLocation><include file=".projects/labs/lab3/lab3instructions.html"/></relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab4 </folderName>
+		<description> This is an extension of the playlist lab, using AJAX and JSON. </description>
+		<relativeLocation><include file="./projects/labs/lab4/lab4.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab5 </folderName>
+		<description> This is front end manipulation using PHP. </description>
+		<relativeLocation><include file="./projects/labs/lab5/lab5.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab6 </folderName>
+		<description> This is a lab creating a calculator using PHP. </description>
+		<relativeLocation><include file="../projects/labs/lab6/lab6.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab7 </folderName>
+		<description> This lab updates and makes the website created in Quiz 1 more functional</description>
+		<relativeLocation><include file="./projects/labs/lab7/lab7.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab8 </folderName>
+		<description> TBD </description>
+		<relativeLocation><include file="./projects/labs/lab8/lab8.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab9 </folderName>
+		<description> TBD </description>
+		<relativeLocation><include file="./projects/labs/lab9/lab9.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> lab10 </folderName>
+		<description> TBD </description>
+		<relativeLocation><include file="./projects/labs/lab10/lab10.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> hw1 </folderName>
+		<description> This is my resume, using HTML/CSS and microformats. </description>
+		<relativeLocation><include file="./projects/homework/homework1/hw1.html"/> </relativeLocation>
+	</folder>
+	<folder>
+		<folderName> hw2 </folderName>
+		<description> TBD </description>
+		<relativeLocation><include file="./projects/homework/homework2/hw2.html"/></relativeLocation>
+	</folder>
+</site>

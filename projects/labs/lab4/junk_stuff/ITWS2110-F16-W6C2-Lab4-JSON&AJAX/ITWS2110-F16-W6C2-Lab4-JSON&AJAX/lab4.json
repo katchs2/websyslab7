@@ -1,0 +1,19 @@
+{
+  "songs": [
+    {
+      "title": "Song TITLE",
+      "artist": {
+        "name": "artist name",
+        "url": "artist URL"
+      },
+      "album": {
+        "name": "album name",
+        "url": "album URL",
+        "date": "release date"
+      },
+      "genres": [
+        "rock", "pop"
+      ]
+    }
+  ]
+}

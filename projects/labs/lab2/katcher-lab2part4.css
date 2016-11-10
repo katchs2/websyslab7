@@ -1,0 +1,58 @@
+root_element {
+    background-color: #66ccff;
+    font-family: sans-serif;
+    font-style: Arial;
+    border-style: double;
+}
+
+songEntry {
+	list-style: none;
+	display: block;
+	margin-bottom: 10px;
+}
+
+albumCover img {
+	width: 100px;
+	height: 100px;
+}
+
+block {
+	width: 10em;
+	display: inline-block;
+	max-height: 50px;
+	margin: auto;
+	vertical-align: top;
+	padding-top: 4.5em;
+}
+
+songName {
+	font-variant: small-caps;
+	width: 10em;
+	height: 10em;
+	}
+
+artist {
+	font-weight: bold;
+	font-size: 120%;
+	color:blue;
+	width:10em;
+	height:10em;
+}
+
+albumName {
+	font-style: italic;
+	width:10em;
+	height:10em;
+}
+
+releaseYear{
+	font-size: 80%;
+	width:10em;
+	height:10em;
+}
+
+genre{
+	font-size: 80%;
+	width:10em;
+	height:10em;
+}

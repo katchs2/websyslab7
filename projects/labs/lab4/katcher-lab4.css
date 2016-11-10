@@ -1,0 +1,65 @@
+body {
+    background-color: #66ccff;
+    font-family: sans-serif;
+    font-style: Arial;
+    border-style: double;
+	list-style: none;
+	display: block;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+p{
+	list-style: none;
+	display: inline-block;
+	font-weight: bold;
+	width: 12em;
+}
+h2{
+	padding: none;
+}
+
+block {
+	width: 12em;
+	display: inline-block;
+	max-height: 50px;
+	margin: auto;
+	vertical-align: top;
+	padding-top: 4.5em;
+}
+
+.title {
+	font-variant: small-caps;
+	width: 10em;
+	height: 10em;
+	}
+
+.artist {
+	font-weight: bold;
+	font-size: 120%;
+	color:blue;
+	width:10em;
+	height:10em;
+}
+
+.album {
+	font-style: italic;
+	width:10em;
+	height:10em;
+}
+
+.releaseYear{
+	font-size: 80%;
+	width:10em;
+	height:10em;
+}
+
+.genre{
+	font-size: 80%;
+	width:10em;
+	height:10em;
+}

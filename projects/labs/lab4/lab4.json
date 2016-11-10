@@ -1,0 +1,116 @@
+{
+	"playlist": 
+	{
+		"head": {
+		    "songNameHead": "Song Title"
+		  , "artistHead": "Artist Name"
+		  , "albumNameHead": "Album Name"
+		  , "releaseHead": "Release Year"
+		  , "genreHead": "Genre"
+		  , "albumCoverHead": "Album Cover"
+		}
+	    ,"songEntry":[
+			{
+				"songName": "Ex's and Oh's"
+			   ,"artist": {
+					"website": "http://www.elleking.com/"
+				   ,"name": "Elle King"
+				}
+			    ,"albumName": {
+					"image": "http://www.allmusic.com/album/love-stuff-mw0002796344",
+					"title": "Love Stuff"
+				}
+			    ,"releaseYear": "2015"
+			    ,"genre": "Pop/Rock"
+			    ,"albumCover":{
+					"link": "http://hwcdn.allmusic.com/release-covers/500/0004/344/0004344081.jpg"
+				    ,"alt": "Love Stuff Album Cover"
+				}
+			}
+		   ,{
+			   "songName": "Runarond Sue"
+			   ,"artist": {
+					"website": "https://www.facebook.com/OfficialDion/"
+				   ,"name": "Dion"
+				}
+				,"albumName":{
+					"image": "http://www.allmusic.com/album/runaround-sue-mw0000083566"
+				   ,"title": "Runaround Sue"
+				}
+			    ,"releaseYear": "1961"
+			    ,"genre": "Pop/Rock and R&B"
+			    ,"albumCover":{
+					"link": "http://cps-static.rovicorp.com/3/JPG_500/MI0001/549/MI0001549914.jpg?partner=allrovi.com",
+					"alt": "Runaround Sue Album Cover"
+				}
+			}
+		   ,{
+				"songName": "Danza Kuduro"
+			    ,"artist": {
+					"website": "http://www.universalmusica.com/donomar/"
+				   ,"name": "Don Omar"}
+			    ,"albumName":{
+					"image": "http://www.allmusic.com/album/meet-the-orphans-mw0002053164"
+				   ,"title": "Meet the Orphans"
+				}
+			   ,"releaseYear": "2010"
+			   ,"genre": "Latin Rap, Reggae"
+			   ,"albumCover": {
+					"link": "http://cps-static.rovicorp.com/3/JPG_1080/MI0003/067/MI0003067805.jpg?partner=allrovi.com"
+				   ,"alt": "Meet the Orphans Album Cover"
+				}
+			}
+		   ,{
+				"songName": "Diez Mil Maneras"
+			   ,"artist": {
+					"website": "http://www.davidbisbal.com/"
+				   ,"name": "David Bisbal"
+				}
+			   ,"albumName": {
+					"image": "http://www.allmusic.com/album/t%C3%BA-y-yo-mw0002623319"
+				   ,"title": "Tú y Yo"
+				}
+			   ,"releaseYear": "2014"
+			   ,"genre": "Pop/Rock, Latin"
+			   ,"albumCover": {
+					"link": "http://cps-static.rovicorp.com/3/JPG_1080/MI0003/715/MI0003715927.jpg?partner=allrovi.com"
+				   ,"alt": "Tú y Yo Album Cover"
+				}
+			}
+		   ,{
+				"songName": "Wake Me Up Before You Go-Go"
+				,"artist": {
+					"website": "http://www.georgemichael.com/"
+				   ,"name": "George Michael"
+				}
+			   ,"albumName": {
+					"image": "http://www.allmusic.com/album/make-it-big-mw0000192387"
+				   ,"title": "Make It Big"
+				}
+			   ,"releaseYear": "1984"
+			   ,"genre": "Pop/Rock"
+			   ,"albumCover":{
+					"link": "http://hwcdn.allmusic.com/release-covers/500/0000/850/0000850889.jpg"
+				   ,"alt": "Make It Big Album Cover"
+				}
+			}
+		   ,{
+				"songName": "Where Did the Party Go"
+			   ,"artist": {
+					"website": "http://falloutboy.com/"
+				   ,"name": "Fall Out Boy"
+				}
+			   ,"albumName": {
+					"image": "http://www.allmusic.com/album/save-rock-and-roll-mw0002492116"
+				   ,"title": "Save Rock and Roll"
+				}
+			   ,"releaseYear": "2013"
+			   ,"genre": "Pop/Rock"
+			   ,"albumCover": {
+					"link": "http://cps-static.rovicorp.com/3/JPG_500/MI0003/512/MI0003512073.jpg?partner=allrovi.com"
+				   ,"alt": "Save Rock and Roll Album Cover"
+				}
+			}
+		]
+		}
+}

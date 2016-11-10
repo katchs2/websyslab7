@@ -1,0 +1,9 @@
+<VirtualHost websysquiz:80>
+	DocumentRoot "C:\Users\katchs2\Dropbox\Web Systems Development\Lab\websys\websysquiz1"
+	ServerName websysquiz
+	<Directory "C:\Users\katchs2\Dropbox\Web Systems Development\Lab\websys\websysquiz1">
+		AllowOverride All
+		Require all granted
+	</Directory>
+</VirtualHost>
+

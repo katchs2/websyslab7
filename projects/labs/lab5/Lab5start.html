@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Samm Katcher- Lab 5</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="lab5.css">
+		<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+	</head>
+	<body>
+		<h1> Samm's Lab 5 </h1>
+		<div id="bar">
+			<a href="#" id="showall">Show All</a>
+    		<a href="http://www.youtube.com/watch?v=oHg5SJYRHA0"> Click me!</a>
+    		<a href="https://www.youtube.com/watch?v=YCeQLeQiRP4"> Don't click me!</a>
+			<ul id="foo">
+				<li>This is an item in the list. Click to make me disappear.</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+	//Optimization for part 3 on readme
+		$(document).ready(function() {		
+			//Optimized function  for part 5 on readme:
+			var element = "ul#foo";
+				listitemstring = "";
+				for (var i = 0; i < 5000; i++) {
+					listitemstring+="<li>This is an item in the list. Click to make me disappear.</li>";
+			}
+			$(element).append(listitemstring);
+
+			//Optimization for Part 1
+			$("#foo").click(function(e){
+				if(e.target.tagName == "LI")
+				{
+					$(e.target).hide(400);
+				}
+			});
+			$("#showall").click(function(e) {
+				$("li").each(function() { 
+					$(this).show(400);
+				});
+			});
+		});
+	</script>
+</html>

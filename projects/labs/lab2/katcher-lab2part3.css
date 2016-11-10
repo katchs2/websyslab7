@@ -1,0 +1,81 @@
+
+/*Tags*/
+body {
+    background-color: #66ccff;
+    font-family: sans-serif;
+    font-style: Arial;
+    border-style: double;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+p{
+	margin: auto;
+	text-align: center;
+}
+
+/*Classes*/
+.album-cover img {
+	width:10em;
+	height:10em;
+}
+
+.text {
+	margin: auto;
+	vertical-align: top;
+	padding-top: 4.5em;
+}
+.song-name {
+	width:20em;
+	height:10em;
+	font-variant: small-caps;
+}
+
+.artist {
+	width:10em;
+	height:10em;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.album-name {
+	width:10em;
+	height:10em;
+	font-style: italic;
+}
+
+.release-year{
+	width:10em;
+	height:10em;
+	font-size: 80%;
+}
+
+.genre{
+	width:10em;
+	height:10em;
+	font-size: 80%;
+}
+
+.favorite{
+	color: green;
+}
+
+.column-head{
+	width:10em;
+	height:10em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/*Specific IDs*/
+#song{
+	width:20em;
+}
+
