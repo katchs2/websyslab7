@@ -33,10 +33,11 @@ $(document).ready(function() {
 				var description = $(folder).find("description").text();
 				var loc = $(folder).find("relativeLocation").find("include").attr("file");
 	
-				output += "<div class='folder'>" 
-					+ "<a href='" + loc + "'>" + folderName + "</a>"
-					+ "<div>" + description + "</div>"
-				+ "</div>";
+				output += "<div class='folder'> <tr>" 
+					+ "<td> <div class= ''> <a href='" + loc + "'>" + 
+						folderName + "</a> </div> </td>"
+					+ "<td><span class= 'bg-primary'>" + description + "</span></td>"
+				+ "</div> </tr>";
 			});
 			$("#content").html(output);
 		}
