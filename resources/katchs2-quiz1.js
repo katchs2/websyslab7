@@ -1,25 +1,3 @@
-// function loadXMLDoc() {
-			  // var xmlhttp;
-			  // if (window.XMLHttpRequest) {
-			    // xmlhttp = new XMLHttpRequest();
-			  // }
-			  // xmlhttp.onreadystatechange = function() {
-			    // if (this.readyState == 4 && this.status == 200) {
-			      // document.getElementById("p").innerHTML =
-			      // this.responseText;
-			    // }
-			  // };
-			  // xmlhttp.open("GET", "katchs2-quiz1.xml", true);
-			  // xmlhttp.send();
-			// }
-
-
-// document.addEventListener('DOMContentLoaded', function() {
-	// var clone = document.getElementsByTagName('div')[0].cloneNode(true);
-	// document.body.appendChild(clone);
-	// document.getElementById("site").innerHTML = loadXMLDoc(document.documentElement);
-// }, false);
-
 $(document).ready(function() {
 	$.ajax({
 		url: "resources/katchs2-quiz1.xml",
@@ -33,9 +11,9 @@ $(document).ready(function() {
 				var description = $(folder).find("description").text();
 				var loc = $(folder).find("relativeLocation").find("include").attr("file");
 	
-				output += "<div class='folder'> <tr>" 
-					+ "<td> <div class= ''> <a href='" + loc + "'>" + 
-						folderName + "</a> </div> </td>"
+				output += "<div class='folder'><tr>" 
+					+ "<td><a href='" + loc + "'>" 
+					+	folderName + "</a> </td>"
 					+ "<td><span class= 'bg-primary'>" + description + "</span></td>"
 				+ "</div> </tr>";
 			});
