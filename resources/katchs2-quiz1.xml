@@ -8,12 +8,12 @@
 	<folder>
 		<folderName> lab2 </folderName>
 		<description> This is a playlist of my favorite songs.</description>
-		<relativeLocation><include file="./projects/labs/lab2/skatcher-lab2part3.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/labs/lab2/katcher-lab2part3.html"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab3 </folderName>
 		<description> This is an example of how to use JavaScript  Event Listeners, iterating through the DOM, and CSS Manipulation with JavaScript </description>
-		<relativeLocation><include file=".projects/labs/lab3/lab3instructions.html"/></relativeLocation>
+		<relativeLocation><include file="./projects/labs/lab3/lab3instructions.html"/></relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab4 </folderName>
@@ -23,26 +23,26 @@
 	<folder>
 		<folderName> lab5 </folderName>
 		<description> This is front end manipulation using PHP. </description>
-		<relativeLocation><include file="./projects/labs/lab5/lab5.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/labs/lab5/lab5start.html"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab6 </folderName>
 		<description> This is a lab creating a calculator using PHP. </description>
-		<relativeLocation><include file="../projects/labs/lab6/lab6.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/labs/lab6/lab6start.php"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab7 </folderName>
 		<description> This lab updates and makes the website created in Quiz 1 more functional</description>
-		<relativeLocation><include file="./projects/labs/lab7/lab7.html"/> </relativeLocation>
+		<relativeLocation><include file="index.html"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab8 </folderName>
-		<description> TBD </description>
-		<relativeLocation><include file="./projects/labs/lab8/lab8.html"/> </relativeLocation>
+		<description> This lab creates a SQL database </description>
+		<relativeLocation><include file="./projects/labs/lab8/katchs2_websyslab8.sql"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab9 </folderName>
-		<description> TBD </description>
+		<description> This lab teaches us more about PDO and PHP. </description>
 		<relativeLocation><include file="./projects/labs/lab9/lab9.html"/> </relativeLocation>
 	</folder>
 	<folder>
@@ -53,11 +53,11 @@
 	<folder>
 		<folderName> hw1 </folderName>
 		<description> This is my resume, using HTML/CSS and microformats. </description>
-		<relativeLocation><include file="./projects/homework/homework1/hw1.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/homework/homework1/katcher-websys-hw1.html"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> hw2 </folderName>
-		<description> TBD </description>
-		<relativeLocation><include file="./projects/homework/homework2/hw2.html"/></relativeLocation>
+		<description> This is a small game called "Hexed". </description>
+		<relativeLocation><include file="./projects/homework/homework2/group1_homework2.html"/></relativeLocation>
 	</folder>
 </site>

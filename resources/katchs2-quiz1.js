@@ -1,4 +1,19 @@
 $(document).ready(function() {
+	$( function() {
+	    // run the currently selected effect
+	    function runEffect() {
+	      // get effect type
+	      var selectedEffect = 'highlight'
+	      // Run the effect
+	      $("#effect").toggle(selectedEffect, 500 );
+	    };
+	 
+	    // Set effect from select menu value
+	    $( ".toggler" ).on("click", function() {
+	      runEffect();
+	    });
+  	});
+
 	$.ajax({
 		url: "resources/katchs2-quiz1.xml",
 		type: "GET",
@@ -14,7 +29,7 @@ $(document).ready(function() {
 				output += "<div class='folder'><tr>" 
 					+ "<td><a href='" + loc + "'>" 
 					+	folderName + "</a> </td>"
-					+ "<td><span class= 'bg-primary'>" + description + "</span></td>"
+					+ "<td><div id= 'effect' class= 'bg-primary toggler'>" + description + "</div></td>"
 				+ "</div> </tr>";
 			});
 			$("#content").html(output);
