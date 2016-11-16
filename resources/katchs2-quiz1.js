@@ -3,7 +3,7 @@ $(document).ready(function() {
 	    // run the currently selected effect
 	    function runEffect() {
 	      // get effect type
-	      var selectedEffect = 'highlight'
+	      var selectedEffect = 'highlight';
 	      // Run the effect
 	      $("#effect").toggle(selectedEffect, 500 );
 	    };
@@ -29,10 +29,11 @@ $(document).ready(function() {
 				output += "<div class='folder'><tr>" 
 					+ "<td><a href='" + loc + "'>" 
 					+	folderName + "</a> </td>"
-					+ "<td><div id= 'effect' class= 'bg-primary toggler'>" + description + "</div></td>"
+					+ "<td><div class= 'bg-primary'>" + description + "</div></td>"
 				+ "</div> </tr>";
 			});
 			$("#content").html(output);
 		}
 	});
+
 });
