@@ -43,7 +43,7 @@
 	<folder>
 		<folderName> lab9 </folderName>
 		<description> This lab teaches us more about PDO and PHP. </description>
-		<relativeLocation><include file="./projects/labs/lab9/lab9.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/labs/lab9/index.view.php"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> lab10 </folderName>
@@ -53,11 +53,11 @@
 	<folder>
 		<folderName> hw1 </folderName>
 		<description> This is my resume, using HTML/CSS and microformats. </description>
-		<relativeLocation><include file="./projects/homework/homework1/katcher-websys-hw1.html"/> </relativeLocation>
+		<relativeLocation><include file="./projects/homeworks/homework1/katcher-websys-hw1.html"/> </relativeLocation>
 	</folder>
 	<folder>
 		<folderName> hw2 </folderName>
 		<description> This is a small game called "Hexed". </description>
-		<relativeLocation><include file="./projects/homework/homework2/group1_homework2.html"/></relativeLocation>
+		<relativeLocation><include file="./projects/homeworks/homework2/group1_homework2.html"/></relativeLocation>
 	</folder>
 </site>
